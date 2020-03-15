@@ -14,7 +14,7 @@ margin:0px;
 .btn-active-1 {
   background-color:
 #e1eaf0;
-margin-right: 20px;
+padding-right: 20px;
 padding: 0px 10px;
 border-radius: 5px;
 color:black;
@@ -58,6 +58,13 @@ h1.option {
 .box {
 
 }
+
+.mainArea {
+  margin-top:3em;
+  margin-bottom:15px;
+}
+
+/* Footer */
 
 #footer {
   background-color:#EDF1F2;
