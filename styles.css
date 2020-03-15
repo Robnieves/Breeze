@@ -3,6 +3,8 @@
 margin:0px;
 } */
 
+/* header */
+
 .main-logo {
   width: 5rem;
   margin-top: -5px;
@@ -11,21 +13,17 @@ margin:0px;
     padding-right: 20px;
 }
 
-.btn-active-1 {
-  background-color:
-#e1eaf0;
-padding-right: 20px;
-padding: 0px 10px;
-border-radius: 5px;
-color:black;
+
+.bg-nav {
+  margin-right: 2em;
 }
 
-.nav-item {
-  margin-right: 20px;
-  color:black;
+.bg-nav-active {
+  background-color: #e1eaf0;
+  border-radius: 0.25em;
 }
 
-
+/* header ends */
 
 #main {
   padding-top: 25px;
@@ -36,23 +34,29 @@ color:black;
 .option {
 background-color:white;
 text-align: center;
-color:#006FBA;
-padding-top:25px;
+color:gray;
+padding-top:4em;
+padding-left: 2em;
+padding-right:2em;
 border-radius: 5px;
 border: 1px solid #E4ECF1;
 min-height: 500px;
 
 }
 
+.option p {
+  color:#red;
+}
+
 .main-icon {
-  font-size:14em;
+  font-size:10em;
   color:#006FBA;
   padding-bottom:25px;
 }
 
 h1.option {
   font-size:14em;
-  color:#006FBA;
+  color:#red;
 }
 
 .box {
