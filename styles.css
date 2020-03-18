@@ -1,7 +1,7 @@
-/* body {
-  background-color:#fff;
+body {
+  background-color: #F4F8FB;
 margin:0px;
-} */
+}
 
 /* header */
 
@@ -18,14 +18,23 @@ margin:0px;
   margin-right: 2em;
 }
 
+.bg-nav:hover {
+
+  background-color: #e1eaf0;
+  border-radius: 0.25em;
+
+}
+
 .bg-nav-active {
   background-color: #e1eaf0;
   border-radius: 0.25em;
 }
 
+
+
 /* header ends */
 
-#main {
+.main {
   padding-top: 25px;
   background-color: #F4F8FB;
   padding-bottom: 25px;
@@ -65,7 +74,7 @@ h1.option {
 
 .mainArea {
   margin-top:3em;
-  margin-bottom:15px;
+
 }
 
 /* Footer */
